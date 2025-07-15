@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" );
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 16px;
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.banner-wrap {
+    height: 100vh;
+    background-image: url(assets/bgimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    position: relative;
+    border-bottom: 10px solid #222222;
+}
+.overlay {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 60%;
+    position: absolute;
+    top: 0%; 
+}
+.nav-bar {
+    display: flex;
+    height: 88px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 0 148px;
+    margin: 0 45px;
+    padding-top: 45px;
+    position: relative;
+
+}
+.nav-bar svg {
+    height: 40px;
+    width: 148px;
+    fill: rgb(229, 9, 20);
+}
+.btn-red {
+    display: flex;
+    height: 32px;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    direction: ltr;
+    margin-left: 12px;
+    width: 76.9px;
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 16px;
+    white-space: nowrap;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* fonts */
+.headline {
+    font-size: 56px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 16px;
+}
+.subtitle {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+.headline-two {
+    font-size: 32px;
+    height: 80px;
+    width: 432px;
+}
+.subtitle-two {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.banner-container {
+    display: flex;
+    height:624.208px; 
+    flex-direction: column;
+    padding: 32px;
+    align-self: center;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+}
+.banner-info {
+    width: 588px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.email-form-title {
+    height: 24px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.get-started {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 16px;
+   
+}
+.get-started input {
+    height: 56px;
+    width:366.758px ;
+    padding-left: 16px;
+    color: rgb(255, 255, 255);
+    background-color:rgba(23, 23, 22, 0.5);
+    /* background-color:rgba(0, 0, 0, 0); */
+    column-gap: 2px;
+    row-gap: 2px;
+    border: 1px solid rgb(152, 160, 170);
+    border-radius: 4px;
+}
+.get-started-btn {
+    display: flex;
+    direction: ltr;
+    height: 56px;
+    width: 213.242px;
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(229, 9, 20);
+    border-radius: 4px;
+    /* padding: 12px 24px; */
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-weight: bolder;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.info-container {
+    background: black;
+    color: white;
+    display: flex;
+    padding: 70px 45px;
+    border-bottom: 10px solid #222222;
+}
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.tv-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tv-container img {
+    z-index: 1;
+}
+.tv-container video {
+    position: absolute;
+}
+.footer {
+    background: black;
+}
+.footer-items {
+    margin: 0 47.5px;
+    padding: 70px 45px;
+}
+.footer-top {
+    margin-bottom: 30px;
+}
+.footer ul li, .questions-title {
+    color: #757575;
+}
+.footer-links li {
+    font-size: 13px;
+    line-height: 2;
+}
+.footer ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.questions-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-links {
+    list-style-type: none;
+    columns: 4;
+    padding: 0;
+}
+.language {
+    height: 53px;
+    width: 142px;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #999999;
+    padding: 0 10px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.language select {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background: black;
+    color: #999999;
+}
